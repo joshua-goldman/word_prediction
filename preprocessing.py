@@ -30,7 +30,7 @@ def create_word_vocab():
     vocab = ["<EMP>", "<UNK>"] + [word for word, cnt in word2cnt.items() if cnt > 50]
     word2idx = {word:idx for idx, word in enumerate(vocab)}
     idx2word = {idx:word for idx, word in enumerate(vocab)} 
-    pickle.dump( (word2idx, idx2word), open("data/word_vocab.pkl", "wb") )
+    pickle.dump((word2idx, idx2word), open("data/word_vocab.pkl", "wb"))
 
 def load_word_vocab():
     word2idx, idx2word = pickle.load( open("data/word_vocab.pkl", "rb") )
