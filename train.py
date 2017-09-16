@@ -3,7 +3,7 @@
 Training.
 '''
 from __future__ import print_function
-from prepro import *
+from preprocessing import *
 import sugartensor as tf
 import random
 

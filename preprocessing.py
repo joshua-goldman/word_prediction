@@ -1,7 +1,6 @@
-#/usr/bin/python2
 # coding: utf-8
 '''
-Preprocessing.
+preprocessingcessing.
 Make training/test data and a set of vocabulary. 
 '''
 from __future__ import print_function

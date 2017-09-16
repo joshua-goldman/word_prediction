@@ -34,7 +34,7 @@ In this project, we examine how well neural networks can predict the current or 
 * STEP 1. Download [English wikinews dumps](https://dumps.wikimedia.org/enwikinews/20170120/).
 * STEP 2. Extract them and copy the xml files to `data/raw` folder.
 * STEP 3. Run `build_corpus.py` to build an English news corpus.
-* STEP 4. Run `prepro.py` to make vocabulary and training/test data.
+* STEP 4. Run `preprocessing.py` to make vocabulary and training/test data.
 * STEP 5. Run `train.py`.
 * STEP 6. Run `eval.py` to get the results for the test sentences.
 * STEP 7. We manually tested for the same test sentences with iPhone 7 keyboard.

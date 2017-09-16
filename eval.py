@@ -18,7 +18,7 @@ the generated model predicts a word per letter including a space.
 from __future__ import print_function
 import sugartensor as tf
 import numpy as np
-from prepro import *
+from preprocessing import *
 from train import ModelGraph
 import codecs
 
